@@ -1,0 +1,152 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+article {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #333;
+    padding: 10px;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote footer {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Styling specific elements */
+ol {
+    counter-reset: item;
+}
+
+ol li {
+    counter-increment: item;
+    margin-bottom: 20px;
+}
+
+ol li h3 {
+    margin-top: 0;
+}
+
+ol li ul {
+    margin-top: 10px;
+}
+
+ol li ul li:before {
+    content: counter(item) ".";
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 0;
+    color: #777;
+}
+
+/* Role-specific styles */
+article h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+article p {
+    margin: 0 0 10px;
+}
+
+/* Additional visual enhancements */
+ol {
+    margin-left: 20px;
+}
+
+blockquote {
+    border-left: 5px solid #007bff; /* Blue color for quote border */
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+}
+
+
+
